@@ -52,7 +52,7 @@ header {
 
 ul li {
   display: inline;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Quicksand', sans-serif;
   margin-right: 1rem;
 }
@@ -125,21 +125,21 @@ ul li {
 @media only screen and (max-width: 1208px) {
 
   .banner-text h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
 
 }
 
-@media only screen and (max-width: 1084px) {
+@media only screen and (max-width: 1128px) {
 
   .banner-text h1 {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
   }
 
   .banner-text p {
     width: 80%;
-    font-size: 1.5rem;
-    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
     line-height: 1;
   }
 
@@ -198,6 +198,29 @@ button {
   height: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1208px) {
+
+  .about-left h1 {
+    font-size: 2.7rem;
+  }
+
+  .about-left p {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media only screen and (max-width: 1128px) {
+
+  .about-left h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-left p {
+    font-size: 0.8rem;
+  }
 }
 
 /* Tiles */
@@ -289,10 +312,17 @@ button {
 
 @media only screen and (max-width: 1208px) {
 
+  .courses-section {
+    padding: 1.5rem 0;
+  }
+
   .courses-section h1 {
     margin: 1.5rem;
     font-size: 2.8rem;
-    text-align: center;
+  }
+
+  .course-text {
+    height: 10rem;
   }
 
   .course-text h3 {
@@ -303,9 +333,51 @@ button {
     font-size: 0.9rem;
   }
 
+
+
+}
+
+@media only screen and (max-width: 1128px) {
+
   .courses-section {
-    padding: 1.5rem 0;
+    padding: 1.2rem 0;
   }
+
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .course {
+    margin: 1rem;
+    max-width: 40%;
+  }
+
+  .course-img img {
+    max-width: 100%;
+  }
+
+  .courses-section h1 {
+    margin: 1.2rem;
+    font-size: 2.5rem;
+  }
+
+  .course-text {
+    height: 9rem;
+  }
+
+  .course-text h3 {
+    font-size: 1.1rem;
+  }
+
+  .course-text h4, .course-text p {
+    font-size: 0.8rem;
+  }
+
+
 
 }
 
