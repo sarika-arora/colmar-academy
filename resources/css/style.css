@@ -37,6 +37,10 @@ a {
   line-height: 1.5;
 }
 
+a:hover {
+  color: rgb(89, 164, 200);
+}
+
 @media only screen and (max-width: 1208px) {
   h1 {
     font-size: 2.7rem;
@@ -83,10 +87,6 @@ header {
   position: fixed;
   z-index: 10;
   width: 100%;
-}
-
-header a:hover {
-  color: rgb(89, 164, 200);
 }
 
 .content {
@@ -379,10 +379,6 @@ button:visited {
 
 .tile-text p {
   font-weight: lighter;
-}
-
-.tile-text a:hover {
-  color: rgb(89, 164, 200);
 }
 
 @media only screen and (max-width: 1208px) {
